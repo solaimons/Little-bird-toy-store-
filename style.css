@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+  width: 100%;
+ background-color: powderblue;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: skyblue;
+  padding: 10px;
+  color: white;
+   text-shadow: 2px 2px black;
+}
+
+
+.grid-container > div {
+  background-color: powderblue;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  color: white;
+ text-shadow: 2px 2px black;
+}
+
+h1{
+  text-align: center;
+   text-shadow: 2px 2px black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2{
+  background-color: skyblue;
+  padding: 10px;
+    font-size: 20px;
+  text-align: center;
+color: white;
+   text-shadow: 2px 2px black;
+}
+
+  
+.headers{
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: skyblue;
+  color: white;
+  font-size: 20px;
+   text-shadow: 2px 2px black;
+  font-family: "Times New Roman", Times, serif;
+  
+  
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+
+col-sm-6{
+  text-align:right;
+}
+ #train {
+      position: relative;
+      cursor: pointer;}
+
+.row{
+  background: skyblue;   border: 5px
+  
+}
+
+
+.box {
+  border: 5px solid black;
+}
+
+
+.box {
+  background-color:  skyblue;
+  color: white;
+  
+}
+
